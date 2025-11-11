@@ -8,13 +8,14 @@ except ValueError:
 if operation=='+':
     result = num_1+ num_2
     print(f"{num_1} + {num_2} = {result}")
+    
 elif operation=='-':
     result = num_1 - num_2
     print(f"{num_1} - {num_2} = {result}")
+    
 elif operation == '/':
     if num_2 == 0: 
          print("Invalid division! Division by 0 isnt allowed!")
-         
     else: 
         result = num_1 / num_2
        
