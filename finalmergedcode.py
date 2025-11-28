@@ -1,4 +1,4 @@
-def SmartCalculator():
+def AreebaCalculator():
     try:
         operation = input("Choose the operation that you want to perform: (+, -, /, *) ") 
         num_1= int(input("Enter the first number: "))
@@ -29,7 +29,7 @@ def SmartCalculator():
         print("Invalid operation! Please choose from (+, -, /, *).")
 
 #Calling the function to use it
-SmartCalculator()
+AreebaCalculator()
       
             
 import random
